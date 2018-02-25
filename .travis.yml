@@ -1,5 +1,5 @@
 language: shell
 jobs:
   include:
-    - script: echo 'hi'
-    - script: echo 'bye'
+    - script: exit 1
+    - script: sleep 1m
