@@ -1,5 +1,6 @@
 language: shell
 jobs:
+  fast_finish: true
   include:
     - script: exit 1
     - script: sleep 1m
